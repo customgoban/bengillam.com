@@ -167,6 +167,32 @@ Page: Contact
 }
 
 /*****************************
+Interests
+*****************************/
+
+.interest {
+	float:left;
+	margin: 0 2.5%;
+	min-width: 512;
+	clear:left;
+}
+
+/*****************************
+ Page: Interests
+ *****************************/
+.interest {
+
+	max-width: 512px;
+
+}
+.interestd {
+	
+	margin:2%;
+	min-width: 200px;
+	
+
+
+/*****************************
 Colors
 *****************************/
 
