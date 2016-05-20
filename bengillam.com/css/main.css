@@ -123,7 +123,7 @@ footer img {
 
 
 
-@media (min-width: 481px) {
+@media (min-width: 600px) {
 
 .logo {
   font-size: 3vw;
@@ -136,7 +136,7 @@ header ul li {
   float: left;
   padding: 0;
   margin-right: 30px;
-    font-size: 2vw;
+    font-size: 1.75vw;
 }
 
 #nomargin {
