@@ -1,77 +1,45 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-      <title>Ben Gillam | Student</title>
-      <link rel="stylesheet" href="css/normalize.css">
-      <link href='https://fonts.googleapis.com/css?family=Cabin:500italic%7cOpen+Sans:600,600italic' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="css/responsive.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ben's Webpage</title>
+    <link rel="stylesheet" href="css/main.css">
   </head>
-   <body>
+  <body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>Ben Gillam</h1>
-        <h2>Designer</h2>
-      </a>
-      <nav>
+      <div id="main-header">
+        <a href="index.html" class="logo">Ben Gillam</a>
         <ul>
-          <li><a href="index.html" class="selected">Portfolio</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-	  <li><a href="interests.html">Interests</a></li>
-	  <li><a href="http://www.danagillam.com/">Family Photos</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="favorites.html">Favorite Sites</a></li>
+          <li><a href="http://www.danagillam.com" id="nomargin">Family Photos</a></li>
         </ul>
-      </nav>
+      </div>
     </header>
-    <div id="wrapper">
-      <section>
-	<ul id="gallery">
-          <li>
-            <a href="about.html">
-            <img src="img/benphoto.jpg" alt="My Photo">
-            <p>Hi, I'm Ben Gillam.  Click on my photo if you would like to learn more about me.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-02.jpg">
-            <img src="img/numbers-02.jpg" alt="This should be the number 2.">
-            <p>I have two hands.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-06.jpg">
-            <img src="img/numbers-06.jpg" alt="This should be the number 6.">
-            <p>A spider has 6 legs.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-09.jpg">
-            <img src="img/numbers-09.jpg" alt="This should be the number 9.">
-            <p>The only difference between none and nine is and 'I'.</p>
-            </a>
-          </li>
-          <li>
-            <a href="img/numbers-12.jpg">
-            <img src="img/numbers-12.jpg" alt="This should be the number 12.">
-            <p>When i rule the world, I'm gonna base our number system off base 12.</p>
-            </a>
-          </li>
-	  <li>
-            <a href="img/arctic.jpg">
-            <img src="img/arctic.jpg" alt="">
-            <p>This is my desktop background.</p>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <footer>
-        <a href="http://www.equestriadaily.com"><img src="img/eqd.jpg" alt="EQD" class="fun-link"></a>
-        <a href="http://en.lichess.org"><img src="img/lichess.png" alt="EQD" class="fun-link"></a>
-	<a href="https://github.com/customgoban/bengillam.com"><img src="img/github.png" alt="GITHUB" class="fun-link"></a>
-        <p>&copy; 2016 Ben Gillam.</p>
-      </footer>
-    </div>    
+    <section>
+      <div class="haremimg">
+        <img src="img/benphoto.jpg" class="benphoto" alt="Bens Face">
+        <p class="hiimben">Hi, I'm Ben.</p>
+        <p class="welcome">Welcome to Paradise.</p>
+      </div>
+      <div class="col primary">
+        <h1>Header Inspiration</h1>
+        <p>When I saw the generic header in the example, I thought "What do I want myself to be surrounded by?"  Pretty anime girls of corse!</p>
+      </div>
+      <div class="col secondary">
+        <h1>Polygamy Should Be Legal</h1>
+        <ol>
+          <li><p>From a Eugenics perspective, only the most high-quality males will be able to aquire many women, mostly due to their inability to provide sufficient resources to provide for multiple wives.</p></li>
+          <li><p>Polygamy raises the sexual market value of women by increasing their options on whom to marry.  It also improves male motivation for excellence, because they can truely 'Win Big', instead of using all their wealth on one undeserving woman (Ex: Donald Trump).</p></li>
+          <li><p>Whatever your opinion on this subject is, should that opinion be forced on others thru violence?</p></li>
+        </ol>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="https://github.com/customgoban/bengillam.com"><img src="img/github.png" class="footerlink" alt="Github Icon"></a></li>
+        <li><a href="https://twitter.com/ben_customgoban"><img src="img/twitter.png" class="footerlink" alt="Twitter Icon"></a></li>
+      </ul>
+      <p>&copy; Ben Gillam 2016</p>
+    </footer>
   </body>
 </html>
